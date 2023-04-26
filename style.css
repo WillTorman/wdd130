@@ -1,0 +1,33 @@
+body{
+    background-color: aquamarine;
+    margin: 0;
+}
+h1 {
+    background-color: Black;
+    padding:10px 20px;
+    margin: 20px
+    border: 5px;
+    border-radius: 20px;
+    color: green;
+    text-align: center;
+}
+
+#smaller{
+    font-size: 1.3em;
+    background-color: bisque;
+/* for the width here we use max-width rather than with so that if we have a phone its screen wont be too small. If I used 50% rather than 500px then my #smaller header would be really small on a phone. The margin auto should automaticly resize according to the size and pixels of the screen*/
+    max-width: 500px; 
+    margin: 0 auto;
+}
+
+#highlight{
+    background-color: blue;
+    color: brown;
+}
+
+h2{
+    background-color: orange;
+}
+#boi{
+    background-color: purple;
+}
