@@ -47,7 +47,6 @@
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
 }
 #hero-box {
     grid-column: 1/4;
@@ -79,6 +78,7 @@ h4 {
     color: #1D3557;
 }
 main {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 main section {
@@ -176,6 +176,7 @@ footer .social imp {
     width: 80px;
 }
 .card-img {
+    width: 100%;
     border: 10px solid #d9c2a3;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
