@@ -101,15 +101,17 @@ body {
 header {
     display: grid;
     grid-template-columns: 150px auto;
+    background-color: #1D3557;
 }
 nav a {
     text-align: center;
     font-family: "Roboto Condensed";
     padding: 35px;
     border-radius: 10px;
+    color: #A8DADC;
 }
 nav a:hover {
-    background-color: #A8DADC;
+    background-color: #E63946;
     text-decoration: none;
 }
 nav footer {
@@ -127,6 +129,7 @@ nav footer {
     padding: 35px;
     margin-top: 50px;
     border-radius: 5px;
+    color: #A8DADC;
 }
 .book:hover, .join:hover {
     background-color: #A8DADC;
@@ -137,6 +140,9 @@ nav footer {
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
+    background-color: #E63946;
+    border-radius: 25px;
+    opacity: .9;
 }
 .msg p {
     font-family: "Roboto Condensed";
@@ -166,6 +172,7 @@ footer .social imp {
 }
 .logo {
     width: 80px;
+    padding: 25px;
 }
 #logo.link {
     padding-top: 5px;
@@ -205,8 +212,8 @@ footer .social imp {
 
 }
 .rivers-card, .camping-card, .rapids-card {
-    margin: 200px 0;
-    border: 10px solid #000000;
+    margin: 20px 0;
+    border: 10px solid #A8DADC;
 }
 main section img {
     box-sizing: border-box;
