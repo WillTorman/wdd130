@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Slab&display=swap');
+
+body{
+    background-color: #A8DADC;
+}
+
 /* Header */
 header {
     display: grid;
@@ -18,20 +24,24 @@ header {
     justify-self: center;
 }
 .title {
-    justify-self: center;
+    justify-content: left;
     grid-column: 2/3;
     grid-row: 1/1;
+    font-family: 'Oswald';
+    font-size: 75px;
 }
 .clink {
     grid-column: 3/4;
     grid-row: 1/1;
     justify-self: right;
-    align-self: last baseline;
+    margin-top: 25px;
+    font-family: 'Roboto Slab', serif;
 }
 .splink {
     grid-column: 3/4;
     grid-row: 1/1;
     justify-self: right;
+    font-family: 'Roboto Slab', serif;
 }
 /* Footer */
 footer{
@@ -40,21 +50,57 @@ footer{
     background-color: #E63946;
 }
 .social {
-    justify-content: center;
+    justify-self: right;
+    grid-column: 3/4;
+    margin-right: 15px;
+    size: 30px;
+}
+.splinkf {
     grid-column: 2/3;
+    justify-self: center;
+    font-family: 'Roboto Slab', serif;
+}
+.clinkf {
+    grid-column: 2/3;
+    justify-self: center;
+    font-family: 'Roboto Slab', serif;
+}
+.author {
+    margin-left: 15px;
 }
 
 /* Home Main */
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
 }
 .homepic {
     width: 550px;
     height: 300px;
+    grid-column: 2/4;
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px 5px;
+    justify-self: center;
+}
+.blink {
     grid-column: 2/3;
+    justify-self: center;
+    margin: 15px;
+    font-family: 'Roboto Slab', serif;
+    background-color: #457B9D;
+    border-radius: 5px;
+}
+.qlink {
+    grid-column: 3/4;
+    justify-self: center;
+    margin: 15px;
+    font-family: 'Roboto Slab', serif;
+    background-color: #457B9D;
+    border-radius: 5px;
 }
 .homep {
     grid-column: 1/2;
     padding: 25px;
+    justify-content: right;
+    font-family: 'Roboto Slab', serif;
 }
