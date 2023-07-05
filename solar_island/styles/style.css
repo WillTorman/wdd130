@@ -80,23 +80,27 @@ main {
     height: 300px;
     grid-column: 2/4;
     box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px 5px;
-    justify-self: center;
+    justify-self: right;
 }
 .blink {
+    color: azure;
     grid-column: 2/3;
-    justify-self: center;
+    justify-self: right;
     margin: 15px;
     font-family: 'Roboto Slab', serif;
     background-color: #457B9D;
     border-radius: 5px;
+    padding: 10px;
 }
 .qlink {
+    color:azure;
     grid-column: 3/4;
     justify-self: center;
     margin: 15px;
     font-family: 'Roboto Slab', serif;
     background-color: #457B9D;
     border-radius: 5px;
+    padding: 10px;
 }
 .homep {
     grid-column: 1/2;
@@ -104,3 +108,6 @@ main {
     justify-content: right;
     font-family: 'Roboto Slab', serif;
 }
+
+
+/* Benefits Page */
