@@ -14,7 +14,7 @@
   width: 400px;
   /* Form outline */
   padding: 1em;
-  border: 1px solid #ccc;
+  border: 5px solid #457B9D;
   border-radius: 1em;
 }
 
@@ -46,7 +46,7 @@ textarea {
   box-sizing: border-box;
 
   /* Match form field borders */
-  border: 1px solid #999;
+  border: 1px solid #457B9D;
 }
 
 input:focus,
@@ -92,15 +92,14 @@ button {
 </head>
 <body>
     <div id="content">
-        <header id="cheader">
-            <a id="logo_link" href="index.html">
-                <img class="clogo" src="logo_solar_island.png" alt="Logo">
-            </a>
-            <h1 class="ch1">Contact Us</h1>
-            <nav class="cnav">
-                <a href="index.html">Home</a> 
-            </nav>
-        </header>
+      <header>
+        <img class="logo" src="logo_solar_island.png" alt="Logo">
+        <img class="barrio_panels" src="photos/barrio_panels.jpg" alt="Neighborhood with Solar">
+        <h1 class="ctitle">Solar Island</h1>
+        <a class="clink" href="index.html">Home Page</a>
+        <p class="line">|</p>
+        <a class="splink" href="site-plan.html">Site Plan</a>
+    </header>
     </div>
     <main class="form">
         <div id="feedback"></div>
@@ -115,7 +114,7 @@ button {
 					<input type="email" id="mail" name="user_mail" />
 				</li>
 				<li>
-					<label for="msg">Message:</label>
+					<label for="msg">Questions:</label>
 					<textarea id="msg" name="user_message"></textarea>
 				</li>
 				<li class="button">
@@ -124,21 +123,22 @@ button {
 			</ul>
 		</form>       
     </main>          
-        <footer class="cfooter">
-            <p>Solar Island © 2023 - William Torman</p>
-            <p><a href="site-plan.html">Site Plan</a></p>
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="photos/facebook.png" alt="fb icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="photos/twitter.png" alt="twitter icon">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="photos/instagram.png" alt="instagram icon">
-                </a>
-            </div>
-        </footer>
+        <footer>
+          <p class="author">Solar Island © 2023 - William Torman</p>
+          <p class="splinkf"><a href="site-plan.html">Site Plan</a></p>
+          <p class="clinkf"><a href="index.html">Home</a></p>
+          <div class="social">
+              <a href="https://facebook.com" target="_blank">
+                  <img src="photos/facebook.png" alt="fb icon">
+              </a>
+              <a href="https://twitter.com" target="_blank">
+                  <img src="photos/twitter.png" alt="twitter icon">
+              </a>
+              <a href="https://instagram.com" target="_blank">
+                  <img src="photos/instagram.png" alt="instagram icon">
+              </a>
+          </div>
+      </footer>
         <script>
             // get the feedback div element so we can do something with it.
             const feedbackElement = document.getElementById('feedback');
